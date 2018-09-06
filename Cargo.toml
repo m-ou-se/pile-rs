@@ -1,0 +1,11 @@
+[package]
+name = "pile"
+description = "A simple append only collection to manage lifetimes."
+version = "0.1.0"
+authors = ["Mara Bos <m-ou.se@m-ou.se>"]
+documentation = "https://docs.rs/pile/"
+keywords = ["pile", "ownership"]
+license = "BSD-2-Clause"
+
+[dependencies]
+stable_deref_trait = "1"
